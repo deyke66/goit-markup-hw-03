@@ -1,0 +1,220 @@
+/* коріння */
+:root {
+    --color-blue: #2196F3; 
+    --color-btn-focus: #188CE8;
+    --color-text-header: #000000;
+    --color-text-primary: #757575;
+    --color-text-secondary: #212121; 
+    --color-bcg-head-foot: #2F303A;
+    --color-white-txt: #FFFFFF;
+    --color-sect-worker: #F5F4FA;
+
+}
+
+body {
+    color: var(--color-text-primary);
+    background: var(--color-white-txt);
+    font-family: 'roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.03em;
+}
+/* Скритий заголовок */
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.site-nav, 
+.link.current {
+    color: var(--color-blue);
+}
+.list {
+    list-style: none;
+
+}
+
+/* logo */
+
+.accent {
+    color: var(--color-blue);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    
+}
+.header-logo {
+    color: var(--color-text-header);
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+/* Nav */
+
+.link {
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+}
+.link:hover, 
+.link:focus {
+    color: var(--color-blue);
+}
+.aside {
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.aside:hover,
+.aside:focus {
+    color: var(--color-blue);
+}
+
+/* hero */
+
+.hero-title {
+    background-color: var(--color-bcg-head-foot);
+}
+.hero-text {
+    color: var(--color-white-txt);
+    text-align: center;
+    text-transform: uppercase;
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+}
+/* buttons */
+.button {
+    color: var(--color-white-txt);
+    background-color: var(--color-blue);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+
+}
+.button-main:focus,
+.button-main:hover {
+    background-color:  var(--color-btn-focus)
+}
+
+.portfolio-button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    
+}
+.portfolio-button:focus,
+.portfolio-button:hover {
+    background-color: var(--color-btn-focus)
+}
+/*  sections  */
+
+.section-title {
+    color: var(--color-text-secondary);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase
+}
+.title {
+    color: var(--color-text-secondary);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* worker  */
+
+.section-worker {
+    background-color: var(--color-sect-worker);
+}
+.user {
+    color: var(--color-text-secondary);
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+.user-text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+.box {
+    background-color: var(--color-white-txt);
+}
+
+/* portfolio  */
+
+.portfolio-title {
+    color: var(--color-text-secondary);
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2px;
+        letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+    font-size: 16px;
+        line-height: 1.8;
+        letter-spacing: 0.03em;
+}
+/* footer  */
+.footer {
+    background-color: var(--color-bcg-head-foot)
+}
+.address {
+    font-style: normal;
+}
+.footer-logo {
+    color: var(--color-white-txt);
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+.footer-aside {
+    color: rgba(255, 255, 255,0.6);
+    text-decoration: none;
+}
+.footer-link {
+    color: var(--color-white-txt);
+    text-decoration: none;
+}
+
+.portfolio-item {
+    text-decoration: none;
+    color: var(--color-text-primary);
+}
