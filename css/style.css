@@ -56,8 +56,8 @@ p {
     margin: -1px;
 }
 
-.site-nav {
-    
+.header-nav {
+    display: flex;
 }
 
 .site-nav, 
@@ -103,6 +103,7 @@ p {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    margin-right: 30px;
 }
 
 .link:hover, 
@@ -282,4 +283,10 @@ p {
 }
 .header-box {
     display: flex;
+}
+.site-nav {
+    display: flex;
+}
+.link:last-child {
+    margin-right: 0;
 }
