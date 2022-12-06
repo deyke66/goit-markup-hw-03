@@ -17,7 +17,7 @@
 
 img {
     display: block;
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 body {
@@ -174,12 +174,26 @@ p {
 }
 
 /* hero */
+.hero-box {
+    display: block;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+}
 
 .hero-section {
     background-color: var(--color-bcg-head-foot);
     text-align: center;
 }
 .hero-title {
+    display: block;
+
+    width: 696px;
+
+    
+    margin: 0 auto 30px;
+
+
     color: var(--color-white-txt);
     text-align: center;
     text-transform: uppercase;
@@ -188,7 +202,6 @@ p {
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
-    margin-bottom: 30px;
 }
 /* buttons */
 .button {
@@ -207,6 +220,13 @@ p {
     
 
 
+}
+.button-main {
+    display: inline-block;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
 }
 .button-main:focus,
 .button-main:hover {
@@ -250,6 +270,9 @@ p {
     align-items: center;
     margin: 0;
 }
+.main-item {
+    width: 270px;
+}
 .main-item:not(:last-child) {
     margin-right: 30px;
 }
@@ -274,6 +297,9 @@ p {
 .item-work:last-child {
     margin-right: 0;
 } 
+.section-job {
+    padding-top: 0;
+}
 /* worker  */
 
 
