@@ -177,14 +177,17 @@ p {
 /* hero */
 .hero-box {
     display: block;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    
 
 }
 
 .hero-section {
+    padding-top: 200px;
+        padding-bottom: 200px;
+
     background-color: var(--color-bcg-head-foot);
     text-align: center;
+
 }
 .hero-title {
     display: block;
@@ -374,6 +377,7 @@ p {
 .portfolio-box {
     padding: 20px 24px;
     border: 1px solid var(--color-desciption);
+    border-top: none;
 }
 
 .portfolio-title {
